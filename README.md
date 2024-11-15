@@ -10,7 +10,6 @@ This project focuses on detecting and segmenting marine debris from underwater s
 - Keras
 - OpenCV
 - Streamlit
-- Other dependencies as listed in `requirements.txt`
 
 ## Dataset
 The dataset consists of 1868 sonar images and 1868 corresponding masks. The images are used for training a U-Net model, which segments different types of marine debris. The dataset includes 11 distinct classes of objects, such as:
