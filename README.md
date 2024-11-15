@@ -33,20 +33,9 @@ The dataset consists of 1868 sonar images and 1868 corresponding masks. The imag
 - **Epochs**: 40 epochs with early stopping.
 - **Evaluation Metrics**: Mean Intersection over Union (IoU) and Dice Similarity coefficient.
 
-## Running the Project Locally
+### Results
+IoU (Training Set): 0.5351
+IoU (Validation Set): 0.5353
+Dice Similarity (Test Set): 0.8571
 
-### Step 1: Clone the Repository
-Clone this repository to your local machine:
-```bash
-git clone <repository-url>
-cd <repository-folder>
-
-## Step 3: Download the Saved Model
-Download the saved model and place it in the project directory. The model should be named `model.h5` or another appropriate name based on your setup.
-
-## Step 4: Run the Streamlit App
-Run the Streamlit app to visualize the model's predictions:
-
-```bash
-streamlit run app.py
 
