@@ -33,6 +33,8 @@ The dataset consists of 1868 sonar images and 1868 corresponding masks. The imag
 - **Evaluation Metrics**: Mean Intersection over Union (IoU) and Dice Similarity coefficient.
 
 ### Results
+[Presentation](https://docs.google.com/presentation/d/1OCtkn9_Ov9S3pKEpCA8YQ-z2CdTvdKrxsobB_-r00ok/edit?usp=sharing)
+[Model](https://www.kaggle.com/models/dumplinghead/vgg16)
 IoU (Training Set): 0.5351
 IoU (Validation Set): 0.5353
 Dice Similarity (Test Set): 0.8571
