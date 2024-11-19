@@ -1,4 +1,4 @@
-# SIC-project
+#### Samsung Innovation Campus project
 # Marine Debris Detection using U-Net
 
 ## Overview
@@ -26,17 +26,22 @@ The dataset consists of 1868 sonar images and 1868 corresponding masks. The imag
 - Standing-bottle
 
 ## Model Details
+![image](https://github.com/user-attachments/assets/cfb19a3c-733c-430f-b9b3-33f3964380fb)
+
 - **Architecture**: U-Net with VGG16 backbone (pre-trained on ImageNet).
 - **Loss Function**: Binary Cross-Entropy with Dice coefficient as an evaluation metric.
 - **Optimizer**: Adam (learning rate 0.0001).
 - **Epochs**: 40 epochs with early stopping.
 - **Evaluation Metrics**: Mean Intersection over Union (IoU) and Dice Similarity coefficient.
 
-### Results
-[Presentation](https://docs.google.com/presentation/d/1OCtkn9_Ov9S3pKEpCA8YQ-z2CdTvdKrxsobB_-r00ok/edit?usp=sharing)
-[Model](https://www.kaggle.com/models/dumplinghead/vgg16)
+### Results 
 IoU (Training Set): 0.5351
 IoU (Validation Set): 0.5353
 Dice Similarity (Test Set): 0.8571
+![image](https://github.com/user-attachments/assets/62f54970-fee3-4318-8054-53b7d2dcd488)
+![image](https://github.com/user-attachments/assets/b319bba3-d419-4aa8-a9d6-786d43b5eaf5)
+
+[Model](https://www.kaggle.com/models/dumplinghead/vgg16)
+
 
 
